@@ -8,6 +8,14 @@ The initial phase of the project involved an exploratory data analysis (EDA) to 
 
 -Price Distribution: The histogram of housing prices revealed a normal distribution, indicating no significant skewness that would require data transformation. [![Distribution of Price]!(distribution_of_price.png)](https://github.com/tomseeber/bootcamp_project_final/tree/main/Images)
 *Figure 1: Histogram showing the distribution of housing prices.*
+![Area vs Price]([images/area_vs_price.png](https://github.com/tomseeber/bootcamp_project_final/tree/main/Images))
+*Figure 2: Scatter plot illustrating the relationship between property area and housing prices, indicating potential linearity.*
+
+![Bathrooms vs Price]([images/bathrooms_vs_price.png](https://github.com/tomseeber/bootcamp_project_final/tree/main/Images))
+*Figure 3: Scatter plot depicting how the number of bathrooms in a property correlates with the housing prices.*
+
+![Bedrooms vs Price]([images/bedrooms_vs_price.png](https://github.com/tomseeber/bootcamp_project_final/tree/main/Images))
+*Figure 4: Scatter plot showing the association between the number of bedrooms and housing prices.*
 
 -Correlation Insights: A heatmap of the correlation matrix showed that certain features like 'sqft_living' and 'grade' had a strong positive correlation with the price, suggesting their significant influence on the housing prices.
 
