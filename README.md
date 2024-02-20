@@ -1,4 +1,4 @@
-#Bootcamp Final Project - Housing Price Regression Model (Random Forest)
+**Bootcamp Final Project - Housing Price Regression Model (Random Forest)**
 
 **Introduction**
 This project encompasses the development of a machine learning model to predict housing prices using a synthetic dataset specifically crafted for this purpose. The objective was to construct a regression model that can accurately estimate the value of a property based on various features, with a target R² score of 80 as a benchmark for performance.
@@ -8,18 +8,19 @@ The initial phase of the project involved an exploratory data analysis (EDA) to 
 
 -Price Distribution: The histogram of housing prices revealed a normal distribution, indicating no significant skewness that would require data transformation. ![Distribution of Price](/Images/distribution_of_price.png)
 *Figure 1: Histogram showing the distribution of housing prices.*
-![Area vs Price]((https://github.com/tomseeber/bootcamp_project_final/tree/main/Images))
-*Figure 2: Scatter plot illustrating the relationship between property area and housing prices, indicating potential linearity.*
+![Area vs Price](/Images/area_vs_price.png)
+*Figure 2: Scatter plot illustrating the relationship between property area and housing prices.*
 
-![Bathrooms vs Price]((https://github.com/tomseeber/bootcamp_project_final/tree/main/Images))
+![Bathrooms vs Price](/Images/bathrooms_vs_price.png)
 *Figure 3: Scatter plot depicting how the number of bathrooms in a property correlates with the housing prices.*
 
-![Bedrooms vs Price]((https://github.com/tomseeber/bootcamp_project_final/tree/main/Images))
+![Bedrooms vs Price](/Images/bedrooms_vs_price.png)
 *Figure 4: Scatter plot showing the association between the number of bedrooms and housing prices.*
 
 -Correlation Insights: A heatmap of the correlation matrix showed that certain features like 'sqft_living' and 'grade' had a strong positive correlation with the price, suggesting their significant influence on the housing prices.
-![Correlation Matrix]((https://github.com/tomseeber/bootcamp_project_final/tree/main/Images/coorelation_matrix.png))
+![Correlation Matrix](/Images/coorelation_matrix.png)
 *Figure 6: Heatmap of the correlation matrix visualizing the strength and direction of the relationship between the features.*
+
 
 -Feature Relationships: Scatter plots of the most correlated features against the price highlighted the existence of linear relationships, affirming the suitability of regression models for this prediction task.
 
