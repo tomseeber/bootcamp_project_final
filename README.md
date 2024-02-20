@@ -6,7 +6,7 @@ This project encompasses the development of a machine learning model to predict 
 **Exploratory Data Analysis (EDA)**
 The initial phase of the project involved an exploratory data analysis (EDA) to understand the data's characteristics and underlying structure. Through this process, the following insights were gained:
 
--Price Distribution: The histogram of housing prices revealed a normal distribution, indicating no significant skewness that would require data transformation. ![Distribution of Price](images/distribution_of_price.png)
+-Price Distribution: The histogram of housing prices revealed a normal distribution, indicating no significant skewness that would require data transformation. ![Distribution of Price](!(https://github.com/[tomseeber]/[bootcamp_project_final]/blob/[main]/area_vs_price.png?raw=true))
 *Figure 1: Histogram showing the distribution of housing prices.*
 
 -Correlation Insights: A heatmap of the correlation matrix showed that certain features like 'sqft_living' and 'grade' had a strong positive correlation with the price, suggesting their significant influence on the housing prices.
