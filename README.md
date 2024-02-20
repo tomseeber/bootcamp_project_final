@@ -18,6 +18,8 @@ The initial phase of the project involved an exploratory data analysis (EDA) to 
 *Figure 4: Scatter plot showing the association between the number of bedrooms and housing prices.*
 
 -Correlation Insights: A heatmap of the correlation matrix showed that certain features like 'sqft_living' and 'grade' had a strong positive correlation with the price, suggesting their significant influence on the housing prices.
+![Correlation Matrix]((https://github.com/tomseeber/bootcamp_project_final/tree/main/Images/coorelation_matrix.png))
+*Figure 6: Heatmap of the correlation matrix visualizing the strength and direction of the relationship between the features.*
 
 -Feature Relationships: Scatter plots of the most correlated features against the price highlighted the existence of linear relationships, affirming the suitability of regression models for this prediction task.
 
