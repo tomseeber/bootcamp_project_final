@@ -66,20 +66,23 @@ The Random Forest Regressor was selected due to its robustness and ability to mo
 -Hyperparameter Optimization: The model was tuned using RandomizedSearchCV to find the optimal set of hyperparameters, ensuring the best possible balance between bias and variance.<img width="675" alt="Screenshot 2024-02-20 at 3 18 38 PM" src="https://github.com/tomseeber/bootcamp_project_final/assets/140981885/c977d4ff-4dd6-492b-a1da-a5f612e90f3d">
 
 
--Feature Selection: Post hyperparameter tuning, the feature importances were evaluated, and the model was refined to include only the most significant features, which improved the model's interpretability and efficiency.
+-Feature Selection: Post hyperparameter tuning, the feature importances were evaluated, and the model was refined to include only the most significant features, which improved the model's interpretability and efficiency. <img width="644" alt="Screenshot 2024-02-20 at 3 20 47 PM" src="https://github.com/tomseeber/bootcamp_project_final/assets/140981885/a115cab0-6ff6-4fe9-9dda-32ca186349c3">
+
 
 **Optimization Attempts**
 To achieve the goal of an R² score of 80, several optimization strategies were employed:
 
 -Overfitting Prevention: Techniques such as cross-validation and pruning were used to ensure that the model generalized well to unseen data.
 
--Model Refinement: The model was iteratively refined, using insights from each round of cross-validation to adjust the hyperparameters and feature set.
+-Model Refinement: The model was iteratively refined, using insights from each round of cross-validation to adjust the hyperparameters and feature set.<img width="691" alt="Screenshot 2024-02-20 at 3 21 42 PM" src="https://github.com/tomseeber/bootcamp_project_final/assets/140981885/f7f6824b-c560-49cb-8d72-bace4da1ed9e">
+
 
 **Model Evaluation**
 
 The model's performance was rigorously evaluated using multiple metrics:
 
--Final R² Score: The Random Forest model achieved a remarkable R² score of 90 on the test set, surpassing the target goal and indicating a high level of predictive accuracy.
+-Final R² Score: The Random Forest model achieved a remarkable R² score of 90 on the test set, surpassing the target goal and indicating a high level of predictive accuracy.<img width="606" alt="Screenshot 2024-02-20 at 3 22 03 PM" src="https://github.com/tomseeber/bootcamp_project_final/assets/140981885/cc467127-170e-42af-9f4a-796050765fdd">
+
 
 -Cross-Validation Consistency: The cross-validation scores closely aligned with the test score, confirming the model's robustness and consistency across different data subsets.
 
