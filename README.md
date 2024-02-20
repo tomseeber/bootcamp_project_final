@@ -17,12 +17,17 @@ The initial phase of the project involved an exploratory data analysis (EDA) to 
 ![Bedrooms vs Price](/Images/bedrooms_vs_price.png)
 *Figure 4: Scatter plot showing the association between the number of bedrooms and housing prices.*
 
+![Stories vs Price](/Images/stories_vs_price.png)
+*Figure 5: Scatter plot displaying the correlation between the number of stories in a house and its price.*
+
+![Parking vs Price](/Images/parking_vs_price.png)
+*Figure 6: Scatter plot showing the relationship between parking availability and housing prices.*
+
 -Correlation Insights: A heatmap of the correlation matrix showed that certain features like 'sqft_living' and 'grade' had a strong positive correlation with the price, suggesting their significant influence on the housing prices.
 ![Correlation Matrix](/Images/coorelation_matrix.png)
-*Figure 6: Heatmap of the correlation matrix visualizing the strength and direction of the relationship between the features.*
+*Figure 7: Heatmap of the correlation matrix visualizing the strength and direction of the relationship between the features.*
 
-
--Feature Relationships: Scatter plots of the most correlated features against the price highlighted the existence of linear relationships, affirming the suitability of regression models for this prediction task.
+-Feature Relationships: Scatter plots of the most correlated features against the price highlighted the existence of linear relationships, affirming the suitability of regression models for this prediction task. 
 
 -Categorical Variables: Box plots for categorical variables, if present, would show the variance in housing prices across different categories, indicating the impact of these variables on the price.
 
@@ -34,6 +39,26 @@ Data cleaning and preprocessing were meticulously carried out to ensure the qual
 -Outlier Detection: Outliers were detected through IQR score analysis and were treated to prevent them from skewing the model's predictions.
 
 -Feature Engineering: New features were engineered to better capture the nuances of the housing market, such as creating a 'price_per_sqft' feature, which provided additional predictive power to the model.
+
+### Distributions After Data Cleaning
+![Distribution of Area](/Images/Distribution_of_area.png)
+*Figure 7: Histogram of the area feature, with a density overlay to show the overall shape and spread after cleaning and preprocessing.*
+
+![Distribution of Bathrooms](/Images/distribution_of_bathrooms.png)
+*Figure 8: Histogram of the bathrooms feature, demonstrating the data distribution post-cleaning.*
+
+![Distribution of Bedrooms](/Images/distribution_of_bedrooms.png)
+*Figure 9: Histogram of the bedrooms feature after addressing any data issues.*
+
+![Distribution of Stories](/Images/distribution_of_stories.png)
+*Figure 10: Histogram showing the distribution of the 'stories' feature, highlighting potential outliers or data entry errors.*
+
+![Distribution of Parking](/Images/distribution_of_parking.png)
+*Figure 13: Histogram of the parking feature, illustrating the data distribution and any anomalies that were handled during preprocessing.*
+
+### Categorical Feature Analysis
+![Distribution of Furnishing Status](/Images/distribution_furnishing_status.png)
+*Figure 11: Bar chart showing the frequency of different furnishing statuses, which may be an important categorical feature.*
 
 **Model Building**
 The Random Forest Regressor was selected due to its robustness and ability to model complex nonlinear relationships. This ensemble method combines multiple decision trees to produce a more accurate and stable prediction.
