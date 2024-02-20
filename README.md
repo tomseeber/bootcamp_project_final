@@ -42,28 +42,29 @@ Data cleaning and preprocessing were meticulously carried out to ensure the qual
 
 ### Distributions After Data Cleaning
 ![Distribution of Area](/Images/Distribution_of_area.png)
-*Figure 7: Histogram of the area feature, with a density overlay to show the overall shape and spread after cleaning and preprocessing.*
+*Figure 8: Histogram of the area feature, with a density overlay to show the overall shape and spread after cleaning and preprocessing.*
 
 ![Distribution of Bathrooms](/Images/distribution_of_bathrooms.png)
-*Figure 8: Histogram of the bathrooms feature, demonstrating the data distribution post-cleaning.*
+*Figure 9: Histogram of the bathrooms feature, demonstrating the data distribution post-cleaning.*
 
 ![Distribution of Bedrooms](/Images/distribution_of_bedrooms.png)
-*Figure 9: Histogram of the bedrooms feature after addressing any data issues.*
+*Figure 10: Histogram of the bedrooms feature after addressing any data issues.*
 
 ![Distribution of Stories](/Images/distribution_of_stories.png)
-*Figure 10: Histogram showing the distribution of the 'stories' feature, highlighting potential outliers or data entry errors.*
+*Figure 11: Histogram showing the distribution of the 'stories' feature, highlighting potential outliers or data entry errors.*
 
 ![Distribution of Parking](/Images/distribution_of_parking.png)
-*Figure 13: Histogram of the parking feature, illustrating the data distribution and any anomalies that were handled during preprocessing.*
+*Figure 12: Histogram of the parking feature, illustrating the data distribution and any anomalies that were handled during preprocessing.*
 
 ### Categorical Feature Analysis
 ![Distribution of Furnishing Status](/Images/distribution_furnishing_status.png)
-*Figure 11: Bar chart showing the frequency of different furnishing statuses, which may be an important categorical feature.*
+*Figure 13: Bar chart showing the frequency of different furnishing statuses, which may be an important categorical feature.*
 
 **Model Building**
 The Random Forest Regressor was selected due to its robustness and ability to model complex nonlinear relationships. This ensemble method combines multiple decision trees to produce a more accurate and stable prediction.
 
--Hyperparameter Optimization: The model was tuned using RandomizedSearchCV to find the optimal set of hyperparameters, ensuring the best possible balance between bias and variance.
+-Hyperparameter Optimization: The model was tuned using RandomizedSearchCV to find the optimal set of hyperparameters, ensuring the best possible balance between bias and variance.<img width="675" alt="Screenshot 2024-02-20 at 3 18 38 PM" src="https://github.com/tomseeber/bootcamp_project_final/assets/140981885/c977d4ff-4dd6-492b-a1da-a5f612e90f3d">
+
 
 -Feature Selection: Post hyperparameter tuning, the feature importances were evaluated, and the model was refined to include only the most significant features, which improved the model's interpretability and efficiency.
 
