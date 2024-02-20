@@ -1,4 +1,4 @@
-#**Bootcamp Final Project - Housing Price Regression Model (Random Forest)**
+#Bootcamp Final Project - Housing Price Regression Model (Random Forest)
 
 **Introduction**
 This project encompasses the development of a machine learning model to predict housing prices using a synthetic dataset specifically crafted for this purpose. The objective was to construct a regression model that can accurately estimate the value of a property based on various features, with a target R² score of 80 as a benchmark for performance.
